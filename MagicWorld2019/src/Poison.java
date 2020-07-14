@@ -1,5 +1,9 @@
 import java.awt.image.BufferedImage;
-
+/**
+ * A Concrete Decorator, not in use yet.
+ * @author linds
+ *
+ */
 public class Poison extends StatusDecorator 
 {
 	public Poison(Person component) 

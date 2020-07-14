@@ -1,6 +1,10 @@
 
 import java.awt.image.BufferedImage;
-
+/**
+ * A Concrete Decorator in the Decorator Pattern. See "Person" for more details.
+ * @author linds
+ *
+ */
 public class Sword extends ItemDecorator 
 {
 	private BufferedImage item1;

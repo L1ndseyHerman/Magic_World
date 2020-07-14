@@ -9,7 +9,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 /**
- * Copied-and-pasted the entire class from PacHumanWinLooseStoreDone!
+ * Copied-and-pasted the entire class from PacHumanWinLooseStoreDone! This is Chase Mientres's code. 
  * @author linds
  *
  */

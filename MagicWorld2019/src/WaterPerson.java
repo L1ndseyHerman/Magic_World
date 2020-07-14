@@ -1,5 +1,9 @@
 import java.awt.image.BufferedImage;
-
+/**
+ * A Concrete Component in the Decorator Pattern. See "Person" for more details.
+ * @author linds
+ *
+ */
 public class WaterPerson extends Person 
 {
 	private BufferedImage player1;

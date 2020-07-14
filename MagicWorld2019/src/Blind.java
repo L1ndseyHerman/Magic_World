@@ -1,5 +1,9 @@
 import java.awt.image.BufferedImage;
-
+/**
+ * A Concrete Decorator, not in use yet.
+ * @author linds
+ *
+ */
 public class Blind extends StatusDecorator 
 {
 	public Blind(Person component) 

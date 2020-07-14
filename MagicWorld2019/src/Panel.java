@@ -18,11 +18,15 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 
-
+/**
+ * This is the class that calls all of the other classes. 
+ * @author linds
+ *
+ */
 public class Panel extends JPanel
 {
 	private Person player1, player2;
-	//	Yes, this is how the Decorator pattern annoyingly works :(
+	//	Yes, this is how the Decorator pattern annoyingly works :(  People are items....
 	private Person item1, item2;
 	//	Declare the images to be shown later.
 	private BufferedImage player1Image, item1Image, player2Image, item2Image;
@@ -81,6 +85,7 @@ public class Panel extends JPanel
 		this.add(b4);
 			
 		//	Purple should be a color :S
+		//	It's my favorite color, why is it not pre-coded? Lol.
 		b5.setBounds(675, 50, 100, 30);
 		b5.setBackground(new Color(255, 0, 255));
 		this.add(b5);
@@ -107,7 +112,7 @@ public class Panel extends JPanel
 		player2Health.setVisible(false);
 
 		
-		
+		//	The things for each button are separate from the other buttons. Grouped by button, not click number.
 		b1.addMouseListener(new MouseListener()
 		{
 
@@ -601,6 +606,7 @@ b6.addMouseListener(new MouseListener()
 		
 		//	Alternating turns
 		//	PUT THE ANIMATION IN ONLY ONE OF THESE!!
+		//	There isn't an animation yet, but when you make it, do that. 
 		else if (clickCounter > 4 && clickCounter % 2 == 1)
 		{
 			g.drawImage(player1Image, player1.getLeftX(), player1.getY(), this);
